@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biosphere</title>
+    <link rel="shortcut icon" href="static/logo.jpg" type="image/jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Ubuntu Mono', monospace;
+            font-size: 24px;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #181818;
+        }
+        .header-holder {
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .header {
+            height: calc(18vw);
+            object-fit: cover;
+        }
+        main {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            color: #E7E7E7;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 20px;
+            padding: 20px;
+        }
+        main * {
+            margin: 10px auto;
+        }
+        ul {
+            display: flex;
+            flex-direction: row;
+        }
+        li {
+            list-style: none;
+            margin: 10px;
+        }
+        a {
+            color: #E7E7E7;
+        }
+        li div {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        li div img {
+            height: 24px;
+            margin: 0 10px 0 0;
+        }
+    </style>
+</head>
+<body>
+    <nav class="header-holder">
+        <img src="static/header.png" class="header">
+    </nav>
+    <main>
+        <p>Biosphere is a game about surviving on a biosphere (station) placed on Mars.</p>
+        <ul>
+            <li><div><img src="static/social.png"><a href="https://discord.gg/8s5WHtW4JJ" target="_blank">Discord server</a></div></li>
+            <li><div><img src="static/download.png"><a href="download.html">Download</a></div></li>
+            <li><div><img src="static/code.png"><a href="https://github.com/BioSphereGame" target="_blank">GitHub sources</a></div></li>
+        </ul>
+    </main>
+</body>
+</html>
